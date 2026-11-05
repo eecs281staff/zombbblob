@@ -6,7 +6,7 @@
   },
   "dependencies": {
     "@types/node-fetch": "^2.6.11",
-    "better-sqlite3": "^11.8.1",
+    "better-sqlite3": "^13.0.3",
     "discord.js": "^14.18.0",
     "dotenv": "^16.0.3",
     "luxon": "^3.6.1",

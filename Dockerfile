@@ -1,4 +1,4 @@
-FROM node:24-alpine
+FROM node:26-alpine
 
 # Dependencies for building node-gyp packages
 RUN apk add python3 make g++
