@@ -1,7 +1,7 @@
 services:
   zombbblob:
     container_name: zombbblob
-    image: ghcr.io/eecs281staff/zombbblob:latest
+    build: .
     restart: unless-stopped
     volumes:
       - ./prod_data/:/app/prod_data/:rw

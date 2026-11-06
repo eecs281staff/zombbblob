@@ -41,5 +41,5 @@ ulgut and slime are working on a verification feature
 5. Define `PROD`. The value of the variable does not matter.
 6. Run the following command:
     ```bash
-    docker compose up -d
+    docker compose up -d --build
     ```
